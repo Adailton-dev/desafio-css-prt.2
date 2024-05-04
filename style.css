@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    display: inline-block;
+    margin: 44px 0px 144px 76px;
+
+}
+
+header a {
+    color: #989D9C;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 24px;
+    Line-height: 29.26px;
+    margin-right: 23px;
+    cursor: pointer;
+
+}
+
+.btn-header {
+    Width: 130px;
+    Height: 41px;
+    background: rgb(102, 90, 225);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-Size: 24px;
+    Line-height: 29.26px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    opacity: 70%;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+section img {
+    Width: 568px;
+    Height: 500px;
+    margin: 0 0 0 125px;
+}
+
+section {
+    display: flex;
+}
+
+.we-care {
+    width: 515px;
+    margin: 0 0 0 86px;
+}
+
+.we-care h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121.9px;
+    text-align: left;
+}
+
+.we-care h3 {
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70.7px;
+    text-align: left;
+    color: #515151;
+}
+
+.we-care p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+    text-align: left;
+    margin: 32px 0 65px
+}
+
+button {
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    background: #ADFF00;
+    border: none;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    text-align: center;
+
+}
+
+@media screen and (max-width:800px) {
+    header {
+        display: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        width: 354px;
+        height: 317px;
+        margin: 149px 22px 0 14px;
+    }
+
+    .we-care h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        line-height: 60.95px;
+        text-align: left;
+
+    }
+
+    .we-care h3 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 36.57px;
+        text-align: left;
+        margin: 7px 0 17px 0;
+    }
+    .we-care p{
+        display: none;
+    }
+
+}
